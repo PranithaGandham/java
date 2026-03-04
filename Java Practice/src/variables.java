@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 public class variables {
 
     public static void main( String args[]){
@@ -14,6 +16,11 @@ public class variables {
         if we cant to explicitly convert :
             b = (byte)a;  
         */
+
+        byte b = 125;
+        int a  = b;
+        System.out.println(a);
+
 
     }
     
